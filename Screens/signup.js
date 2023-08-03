@@ -23,13 +23,25 @@ const Signup = () => {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [loading, setLoading] = useState(false);
   const navigation = useNavigation();
-  
+  const [phoneNumberError, setPhoneNumberError] = useState("");
+
+
 
   const handleSignup = async () => {
     setLoading(true);
     try {
+      // Validate Role
+      if (role !== "Lecturer" && role !== "Student") {
+        throw new Error("Role must be either 'Lecturer' or 'Student'");
+      }
+  
+      // Validate Phone Number
+      if (!/^\d{10}$/.test(phoneNumber)) {
+        throw new Error("Phone number must be exactly 10 digits");
+      }
+  
       const response = await createUserWithEmailAndPassword(
-        FIREBASE_AUTH, 
+        FIREBASE_AUTH,
         email,
         password
       );
@@ -41,9 +53,9 @@ const Signup = () => {
         phoneNumber: phoneNumber,
         password: password,
       };
-
+  
       await addDoc(userRef, newUser);
-      
+  
       console.log(response);
       // Successful registration, show "Check your email" alert
       Alert.alert(
@@ -64,6 +76,7 @@ const Signup = () => {
       setLoading(false);
     }
   };
+  
 
   return (
     <View style={styles.container}>

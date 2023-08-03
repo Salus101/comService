@@ -52,7 +52,7 @@ export default function App() {
             <Stack.Screen
             name="admin"
             component={AdminDashboard}
-            options={{ title: "Adminstration" }} />
+            options={{headerShown: false}}/>
           </>
         ) : (
           <>
