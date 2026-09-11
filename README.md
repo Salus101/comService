@@ -2,8 +2,6 @@
 
 A mobile application designed to simplify the process of **browsing, booking, and managing community service opportunities** for students. The application also provides instructors with tools to monitor student bookings and assigned service sites.
 
----
-
 ## 📌 Overview
 
 The **Community Service Booking App** connects students with available community service opportunities, allowing them to easily view available slots and book a service site based on their preferred date and time.
@@ -11,8 +9,6 @@ The **Community Service Booking App** connects students with available community
 Instructors have access to a dedicated dashboard where they can manage service sites, monitor student bookings, and track student assignments.
 
 The application was developed to make community service coordination more **organized, accessible, and efficient** for both students and instructors.
-
----
 
 ## ✨ Features
 
@@ -53,8 +49,6 @@ The application was developed to make community service coordination more **orga
 * View students who have booked service slots.
 * Track student assignments.
 * View the service sites assigned to individual students.
-
----
 
 ## 🛠️ Technologies Used
 
