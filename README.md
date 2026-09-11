@@ -40,8 +40,6 @@ The application was developed to make community service coordination more **orga
 * Book a slot based on preferred dates and times.
 * Helps students secure their preferred community service opportunities.
 
----
-
 ### 👨‍🏫 For Instructors
 
 #### 📊 Instructor Dashboard
@@ -65,8 +63,6 @@ The application was developed to make community service coordination more **orga
 * **MongoDB** – Database management
 * **Expo** – Development and testing environment
 * **Git & GitHub** – Version control and collaboration
-
----
 
 ## 📱 Application Workflow
 
@@ -100,8 +96,6 @@ View Student Bookings
 Track Student Assignments
 ```
 
----
-
 ## 🎯 Project Objectives
 
 The Community Service Booking App was developed with the following objectives:
@@ -112,7 +106,6 @@ The Community Service Booking App was developed with the following objectives:
 * Help instructors efficiently monitor student participation.
 * Centralize student booking and service-site information.
 
----
 
 ## 💡 Challenges & Learning
 
@@ -129,8 +122,6 @@ Through the project, I gained practical experience in:
 * CRUD operations
 * Git and GitHub
 * Problem-solving and debugging
-
----
 
 ## 🚀 Getting Started
 
@@ -237,8 +228,6 @@ You can also submit:
 
 This project was developed as an academic/project portfolio application.
 
----
-
 ## 👤 Author
 
 **Salus Karabu**
@@ -246,9 +235,8 @@ This project was developed as an academic/project portfolio application.
 Full-Stack Developer | Front-End Developer
 
 * GitHub: [Salus101](https://github.com/Salus101)
-* Portfolio: [Salus Portfolio](https://thesalusportfolio.netlify.app/)
+* Portfolio: [Salus Portfolio](https://buildwithsalus.com)
 
----
 
 ⭐ If you find this project useful, consider giving the repository a star!
 
