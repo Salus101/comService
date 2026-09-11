@@ -134,7 +134,7 @@ Before running the project, make sure you have installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/community-service-booking-app.git
+git clone https://github.com/Salus101/comService.git
 ```
 
 2. Navigate into the project directory:
