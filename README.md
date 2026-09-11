@@ -177,10 +177,6 @@ community-service-booking-app/
 └── README.md
 ```
 
-> *The project structure may vary depending on the final implementation.*
-
----
-
 ## 🔮 Future Improvements
 
 Potential future improvements include:
@@ -195,7 +191,6 @@ Potential future improvements include:
 * Improved authentication and role-based access.
 * Deployment of the application for production use.
 
----
 
 ## 🤝 Contributing
 
